@@ -3,7 +3,13 @@
 import android.os.SystemClock;
 //import android.os.Environment;
 
-//nothing
+
+public byte[] int2b(int value){
+  return ByteBuffer.allocate(4).putInt(value).array();
+}
+
+import java.nio.ByteBuffer;
+
 
 
 
