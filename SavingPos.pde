@@ -1,5 +1,10 @@
 
 
+
+/*
+  sth random
+*/
+
 public void saveSPos(float spriX, float spriY, int value, Time time){
       String path = getPath() + "/Dia/spri/" + isNR + "Spos.txt";
       String[] info = null;
